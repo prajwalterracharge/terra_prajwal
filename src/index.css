@@ -208,140 +208,130 @@ h5 {
   cursor: pointer;
 }
 
-
 /* CSS OTP */
 
-.mobile-verification-title{
-font-family: Inter;
-font-size: 24px;
-font-weight: 600;
-line-height: 29px;
-letter-spacing: 0em;
-text-align: left;
-color: #001233;
-}
-
-
-.mobile-verification-number{
+.mobile-verification-title {
   font-family: Inter;
-font-size: 14px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #7D8597;
-margin-top: 3px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #001233;
 }
 
-.title-container{
+.mobile-verification-number {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d8597;
+  margin-top: 3px;
+}
+
+.title-container {
   display: flex;
   gap: 5px;
 }
-.image-container{
+.image-container {
   width: 24px;
   margin-top: 3px;
   height: 24px;
 }
 
-.otp-container{
-display: flex;
-justify-content: space-between;
-margin-top: 1rem;
+.otp-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
-.input-style{
+.input-style {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #D5D8DE;
+  border-bottom: 1px solid #d5d8de;
   outline: none;
   font-family: Inter;
   font-weight: 600;
   size: 18px;
   padding-left: 1rem;
   padding-right: 1rem;
-  
 }
-.input-style:focus{
- border-bottom: 1px solid #467CEB;
+.input-style:focus {
+  border-bottom: 1px solid #467ceb;
 }
 
-
-.resend-code{
+.resend-code {
   margin-top: 15px;
-font-family: Inter;
-font-size: 14px;
-font-weight: 500;
-line-height: 18px;
-letter-spacing: 0px;
-text-align: left;
-color: #D5D8DE;
-
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #d5d8de;
 }
 
-.timer{
-font-family: Inter;
-font-size: 14px;
-font-weight: 500;
-line-height: 18px;
-letter-spacing: 0px;
-text-align: left;
-color: #001233;
-
+.timer {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #001233;
 }
 
 /* css what's your name */
-.name-text{
+.name-text {
   font-family: Inter;
-font-size: 24px;
-font-weight: 600;
-line-height: 29px;
-letter-spacing: 0em;
-text-align: left;
-color: #001233;
-
-
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #001233;
 }
 
-.name-container{
+.name-container {
   display: flex;
   gap: 10px;
-
 }
-.image-name{
+.image-name {
   margin-top: 2px;
 }
 
-.enter-name{
+.enter-name {
   margin-top: 1.5rem;
 }
-.enter-name input{
+.enter-name input {
   outline: none;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: solid 2px #D5D8DE ;
+  border-bottom: solid 2px #d5d8de;
   width: 100%;
-font-family: Inter;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-padding-bottom: .50rem;
-
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 0.5rem;
 }
-.enter-name input:focus{
-  border-bottom: solid 2px #467CEB ;
-}
-
-.enter-name input::placeholder{
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
+.enter-name input:focus {
+  border-bottom: solid 2px #467ceb;
 }
 
-.button-container-name button{
-  background-color: #467CEB;
+.enter-name input::placeholder {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.button-container-name button {
+  background-color: #467ceb;
   margin-top: 5rem;
   border-radius: 28px;
   width: 100%;
