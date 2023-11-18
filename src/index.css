@@ -290,4 +290,65 @@ color: #001233;
 }
 
 /* css what's your name */
+.name-text{
+  font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #001233;
 
+
+}
+
+.name-container{
+  display: flex;
+  gap: 10px;
+
+}
+.image-name{
+  margin-top: 2px;
+}
+
+.enter-name{
+  margin-top: 1.5rem;
+}
+.enter-name input{
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px #D5D8DE ;
+  width: 100%;
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: .50rem;
+
+}
+.enter-name input:focus{
+  border-bottom: solid 2px #467CEB ;
+}
+
+.enter-name input::placeholder{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
+
+.button-container-name button{
+  background-color: #467CEB;
+  margin-top: 5rem;
+  border-radius: 28px;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  size: 18px;
+}
