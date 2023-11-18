@@ -3,6 +3,10 @@
   src: local("font"), url("../src/assest/font.otf") format("truetype");
 }
 
+@font-face {
+  font-family: "Inter"; /*Can be any text*/
+  src: local("font"), url("../src/assest/inter.ttf") format("truetype");
+}
 .enter-mobile-text {
   font-family: Inter;
   font-size: 24px;
@@ -173,38 +177,114 @@ h5 {
   margin-top: 6rem;
 }
 
-.search-input input{
-    border: 1px solid black;
-    width: 100%;
-    background-color: #F5F5F7;
-    border: none;
-    padding-top:8px;
-    padding-bottom: 8px;
-    outline: none;
-    padding-left: 2.5rem;
-    
-;
+.search-input input {
+  border: 1px solid black;
+  width: 100%;
+  background-color: #f5f5f7;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  padding-left: 2.5rem;
 }
 
-.search-input{
-    display: flex;
-    justify-content: center;
+.search-input {
+  display: flex;
+  justify-content: center;
 }
 
-.search-icon-setting{
-    position: absolute;
-    margin-right: 15rem;
-    margin-top: .25rem;
+.search-icon-setting {
+  position: absolute;
+  margin-right: 15rem;
+  margin-top: 0.25rem;
+}
+
+.close-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-button div:nth-child(2):hover {
+  cursor: pointer;
+}
+
+
+/* CSS OTP */
+
+.mobile-verification-title{
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #001233;
+}
+
+
+.mobile-verification-number{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #7D8597;
+margin-top: 3px;
+}
+
+.title-container{
+  display: flex;
+  gap: 5px;
+}
+.image-container{
+  width: 24px;
+  margin-top: 3px;
+  height: 24px;
+}
+
+.otp-container{
+display: flex;
+justify-content: space-between;
+margin-top: 1rem;
+}
+.input-style{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #D5D8DE;
+  outline: none;
+  font-family: Inter;
+  font-weight: 600;
+  size: 18px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+.input-style:focus{
+ border-bottom: 1px solid #467CEB;
+}
+
+
+.resend-code{
+  margin-top: 15px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+color: #D5D8DE;
 
 }
 
-.close-button{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.close-button div:nth-child(2):hover{
-    cursor: pointer;
+.timer{
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+color: #001233;
 
 }

@@ -65,7 +65,7 @@ const MobileNumber = () => {
 
           <div className="mobile-container">
             <div className="country-input" onClick={()=>setState(true)}>
-              <input type="text"></input>
+              <input type="text" readonly></input>
             </div>
             <div className="mobile-input">
               <input type="text" placeholder="Mobile Number"></input>
