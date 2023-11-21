@@ -4,16 +4,16 @@ import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid";
 import SearchIcon from "@mui/icons-material/Search";
-import CardContent from '@mui/material/CardContent';
-import Card from '@mui/material/Card';
+import CardContent from "@mui/material/CardContent";
+import Card from "@mui/material/Card";
 import imagev1 from "../assest/v1.svg";
 import imagev2 from "../assest/v2.svg";
 import imagev3 from "../assest/v3.svg";
 import imagev4 from "../assest/v4.svg";
 import tata from "../assest/tata.svg";
 import mahindra from "../assest/mahindra.svg";
-import imgLogo from "../assest/mglogo.svg"
-import logo from "../assest/icon.svg"
+import imgLogo from "../assest/mglogo.svg";
+import logo from "../assest/icon.svg";
 import mg from "../assest/mg.svg";
 import volvo from "../assest/volvo.svg";
 import commet from "../assest/commet.svg";
@@ -25,10 +25,13 @@ const SelectVechile = () => {
     left: "50%",
     transform: "translate(-50%, -50%)",
     width: 400,
-    maxWidth: "353px",
+    maxWidth: "360px",
     bgcolor: "background.paper",
     boxShadow: 24,
     outline: "none",
+    height: "100%",
+    display: "block",
+    overflow: "scroll",
     p: 4,
   };
 
@@ -47,7 +50,7 @@ const SelectVechile = () => {
   return (
     <Modal open={true}>
       <Box sx={style}>
-        <div className="select-vechile-title">Select Vehicle</div>
+        <div className="select-vechile-title"><div>Select Vehicle</div></div>
         <Divider sx={divider_style} />
         <div className="vechile-title">Select vehicle type</div>
 
@@ -84,54 +87,96 @@ const SelectVechile = () => {
           <div className="slider-container">
             <Slider {...settings}>
               <div className="all-text-slider">
-                <div>All</div></div>
+                <div>All</div>
+              </div>
               <img src={tata} alt="tata" className="slider-image" />
               <img src={mahindra} alt="tata" className="slider-image" />
               <img src={mg} alt="tata" className="slider-image" />
               <img src={volvo} alt="tata" className="slider-image" />
               <img src={volvo} alt="tata" className="slider-image" />
-             
             </Slider>
           </div>
 
+          
+
           <div className="card-container">
-          <Card sx={{ maxWidth: 390 }}>
-          <div className="image-container-select-vechile">
-          <img src ={commet}
-        alt="Paella dish"
-      />
-      </div>
-      
-      <CardContent>
-        <div className="card-vechile-text">
-          <div><img src = {imgLogo}/></div>
-          <div className="card-tagline">Comet EV</div>
-        </div>
-        
-        <div className="card-logo-container">
-        <div className="card-logo">
-          <img src = {logo}/>
-          <div className="card-logo-text">CCS-2</div>
-        </div>
+            <Card sx={{ maxWidth: 390 }}>
+              <div className="image-container-select-vechile">
+                <img src={commet} alt="Paella dish" />
+              </div>
 
-        <div className="card-logo">
-          <img src = {logo}/>
-          <div className="card-logo-text">wall</div>
-        </div>
+              <CardContent>
+                <div className="card-vechile-text">
+                  <div>
+                    <img src={imgLogo} />
+                  </div>
+                  <div className="card-tagline">Comet EV</div>
+                </div>
 
-        <div className="card-logo">
-          <img src = {logo}/>
-          <div className="card-logo-text">chademo</div>
-        </div>
+                <div className="card-logo-container">
+                  <div className="card-logo">
+                    <img src={logo} />
+                    <div className="card-logo-text">CCS-2</div>
+                  </div>
 
-        <div className="card-logo">
-          <img src = {logo}/>
-          <div className="card-logo-text">type-2</div>
-        </div>
-        </div>
-      </CardContent>
+                  <div className="card-logo">
+                    <img src={logo} />
+                    <div className="card-logo-text">wall</div>
+                  </div>
+
+                  <div className="card-logo">
+                    <img src={logo} />
+                    <div className="card-logo-text">chademo</div>
+                  </div>
+
+                  <div className="card-logo">
+                    <img src={logo} />
+                    <div className="card-logo-text">type-2</div>
+                  </div>
+                </div>
+              </CardContent>
             </Card>
-            </div>
+          </div>
+
+          
+          <div className="card-container">
+            <Card sx={{ maxWidth: 390 }}>
+              <div className="image-container-select-vechile">
+                <img src={commet} alt="Paella dish" />
+              </div>
+
+              <CardContent>
+                <div className="card-vechile-text">
+                  <div>
+                    <img src={imgLogo} />
+                  </div>
+                  <div className="card-tagline">Comet EV</div>
+                </div>
+
+                <div className="card-logo-container">
+                  <div className="card-logo">
+                    <img src={logo} />
+                    <div className="card-logo-text">CCS-2</div>
+                  </div>
+
+                  <div className="card-logo">
+                    <img src={logo} />
+                    <div className="card-logo-text">wall</div>
+                  </div>
+
+                  <div className="card-logo">
+                    <img src={logo} />
+                    <div className="card-logo-text">chademo</div>
+                  </div>
+
+                  <div className="card-logo">
+                    <img src={logo} />
+                    <div className="card-logo-text">type-2</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </Box>
     </Modal>
