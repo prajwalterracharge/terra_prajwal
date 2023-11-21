@@ -475,3 +475,72 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+
+/* add vechile */
+
+.vin-number{
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.vin-number div:nth-child(1){
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.vin-number div:nth-child(2){
+  margin-top: 5px;
+  }
+
+  .add-vechile-input input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    margin-top: 15px;
+    outline: none;
+    padding-bottom: 1rem;
+  }
+
+.add-vechile-input input::placeholder{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  .registration-number{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 1.5rem;
+width: 100%;
+  }
+
+  .add-vechile-button{
+    background-color: #467CEB;
+   display: flex;
+   justify-content: center;
+   color: white;
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 22px;
+   letter-spacing: 0em;
+   text-align: left;
+   margin-top: 3rem;
+   padding: 16px;
+   border-radius: 28px;
+      
+  }
