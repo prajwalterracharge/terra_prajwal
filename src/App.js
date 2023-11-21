@@ -4,13 +4,14 @@ import MobileNumber from './components/MobileNumber';
 import OTP from './components/OTP'
 import Name from './components/Name';
 import Email from './components/Email'
-
-
+import SelectVechile from "./components/SelectVechile"
 
 function App() {
   return (
   <div>
-<Email/>
+{/* <Name/> */}
+{/* <Email/> */}
+<SelectVechile/>
   </div>
   );
 }
