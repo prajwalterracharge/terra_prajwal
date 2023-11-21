@@ -1,5 +1,5 @@
-body{
-  overflow-y:scroll;
+body {
+  overflow-y: scroll;
 }
 
 @font-face {
@@ -347,200 +347,209 @@ h5 {
   size: 18px;
 }
 
-
 /* add vechile */
-.select-vechile-title{
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
-margin-top: 15px;
+.select-vechile-title {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 15px;
 }
-.vechile-title{
-font-family: Inter;
-font-size: 18px;
-font-weight: 500;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-margin-top: 1rem;
-
+.vechile-title {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 1rem;
 }
-.image-container-vechile{
+.image-container-vechile {
   margin-top: 1rem;
 }
 
-.image-container-vechile:hover{
+.image-container-vechile:hover {
   cursor: pointer;
 }
-.vehicle-search-box input{
-   width: 100%;
-   background-color: #d5d8de;
-   border:2px solid #d5d8de;
-   margin-top:1rem;
-   padding-top:12px;
-   padding-bottom:12px;
-   outline: none;
-   border-radius: 5px;   
+.vehicle-search-box input {
+  width: 100%;
+  background-color: #d5d8de;
+  border: 2px solid #d5d8de;
+  margin-top: 1rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  outline: none;
+  border-radius: 5px;
 }
-.vehicle-search-box input::placeholder{
-padding-left:2rem;
-font-family: Inter;
-font-size: 18px;
-font-weight: 500;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-
+.vehicle-search-box input::placeholder {
+  padding-left: 2rem;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.search-icon{
+.search-icon {
   position: absolute;
   margin-top: 1.5rem;
-  margin-left: .55rem;
+  margin-left: 0.55rem;
 }
 
-.slider-image{
+.slider-image {
   height: 60px;
 }
-.slider-image:hover{
+.slider-image:hover {
   cursor: pointer;
 }
-.slider-container{
+.slider-container {
   margin-top: 1rem;
 }
-.all-text-slider{
-  color: #467CEB;
-  background-color: #DAE5FB;
-margin-top: 5px;
- height: 100%;
- width: 50%; 
- border-radius: 50%;
- font: Inter;
- font-weight: 500;
- font-size: 20px;
+.all-text-slider {
+  color: #467ceb;
+  background-color: #dae5fb;
+  margin-top: 5px;
+  height: 100%;
+  width: 50%;
+  border-radius: 50%;
+  font: Inter;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.all-text-slider div{
+.all-text-slider div {
   display: flex;
   justify-content: center;
   padding: 15px;
-  
 }
-.all-text-slider:hover{
+.all-text-slider:hover {
   cursor: pointer;
 }
 
-.image-container-select-vechile{
- display: flex;
- justify-content: center;
- padding-top: 1rem;
- padding-bottom: 1rem;
- background-color: #F5F5F7;
+.image-container-select-vechile {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #f5f5f7;
 }
 
-.card-container{
+.card-container {
   margin-top: 2rem;
 }
-.card-vechile-text{
+.card-vechile-text {
   display: flex;
   gap: 10px;
-
 }
-.card-tagline{
-font-family:Inter ;
-font-weight: 500;
-font-size:16px;
+.card-tagline {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
 }
 
-.card-logo-container{
+.card-logo-container {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
 
-.card-logo{
-display: flex;
-gap:5px;
+.card-logo {
+  display: flex;
+  gap: 5px;
 }
 
-.card-logo-text{
-font-family: Inter;
-font-size: 12px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: left;
-
+.card-logo-text {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 /* add vechile */
 
-.vin-number{
+.vin-number {
   display: flex;
   gap: 10px;
   margin-top: 1.5rem;
 }
 
-.vin-number div:nth-child(1){
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-
+.vin-number div:nth-child(1) {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.vin-number div:nth-child(2){
+.vin-number div:nth-child(2) {
   margin-top: 5px;
-  }
+}
 
-  .add-vechile-input input{
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    width: 100%;
-    margin-top: 15px;
-    outline: none;
-    padding-bottom: 1rem;
-  }
+.add-vechile-input input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: #d5d8de 1px solid;
+  width: 100%;
+  margin-top: 15px;
+  outline: none;
+  padding-bottom: 1rem;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 
-.add-vechile-input input::placeholder{
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
+.add-vechile-input input[type = "text"]:focus{
+  border-bottom: 1px solid #467ceb;
+}
 
-  }
-  .registration-number{
-    font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-margin-top: 1.5rem;
-width: 100%;
-  }
 
-  .add-vechile-button{
-    background-color: #467CEB;
-   display: flex;
-   justify-content: center;
-   color: white;
-   font-family: Inter;
-   font-size: 18px;
-   font-weight: 600;
-   line-height: 22px;
-   letter-spacing: 0em;
-   text-align: left;
-   margin-top: 3rem;
-   padding: 16px;
-   border-radius: 28px;
-      
-  }
+.add-vechile-input input::placeholder {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.registration-number {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.add-vechile-button {
+  background-color: #467ceb;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 2rem;
+  padding: 16px;
+  border-radius: 28px;
+}

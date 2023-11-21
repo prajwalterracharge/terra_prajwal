@@ -87,13 +87,13 @@ const AddVechile = () => {
             <div>Enter your VIN number</div>
             <div><img src = {info}/></div>
           </div>
-          <div className="add-vechile-input"><input typpe = "text" placeholder="Eg. 4Y1SL65"/></div>
+          <div className="add-vechile-input"><input type = "text" placeholder="Eg. 4Y1SL65"/></div>
 
 
           <div className="registration-number">
             <div>Enter registration number (optional)</div>
           </div>
-          <div className="add-vechile-input"><input typpe = "text" placeholder="Eg. KA 01 GH 9278"/></div>
+          <div className="add-vechile-input"><input type = "text" placeholder="Eg. KA 01 GH 9278"/></div>
       
       <div className="add-vechile-button">
         Next
