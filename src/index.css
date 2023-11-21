@@ -553,3 +553,156 @@ h5 {
   padding: 16px;
   border-radius: 28px;
 }
+
+/* AvailableStation */
+.available-station{
+  margin-top: 1rem;
+  display: flex; 
+  gap: 25px; 
+}
+.available-station-input{
+  height:56px ;
+  background-color: #F5F5F7;
+  border: 1px solid #F5F5F7 ;
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  text-indent:2.5rem;
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.available-station-input::placeholder{
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #979DAC;
+}
+
+.burger-menu{
+  margin-top: 1.2rem;
+}
+
+.burger-menu:hover{
+  cursor: pointer;
+}
+.available-station div:nth-child(2){
+  flex: 1;
+}
+.search-icon-available{
+  position: absolute;
+  margin-left: 3.5rem;
+  margin-top: 2rem;
+}
+
+.station-tag-line{
+font-family: Inter;
+margin-top: 1.5rem;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+  
+}
+
+.image-container-choose-station {
+  display: flex;
+  justify-content: center;
+  
+}
+image-container-choose-station img{
+  object-fit: cover;
+}
+
+.charging-station-text{
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.charging-station-subtext{
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #979DAC;
+margin-top: 3px;
+
+}
+
+.avaiable-station-logo-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.div-logo{
+display:flex;
+gap: 8px; 
+background-color: #FAFAFB;
+border-radius: 30px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+border: 1px solid #979DAC ;
+}
+
+.card-image-setting{
+  margin-top: 2px;
+}
+.online-status{ 
+font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #269D72;
+margin-top: 2px;
+
+}
+.closes-by{
+  margin-top: 5px;
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.direction-container{
+  position: absolute;
+  margin-left: 18rem;
+  margin-top: 3.5rem;
+}
+
+.km-station{
+  position: absolute;
+font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+background-color: #000000B2 ;
+padding: 5px;
+color: white;
+margin-left: 10px;
+margin-top: 10px;
+
+}

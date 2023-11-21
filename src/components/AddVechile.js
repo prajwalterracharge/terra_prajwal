@@ -7,7 +7,7 @@ import Card from "@mui/material/Card";
 import imgLogo from "../assest/mglogo.svg";
 import logo from "../assest/icon.svg";
 import commet from "../assest/commet.svg";
-import info from "../assest/info.svg"
+import info from "../assest/info.svg";
 const AddVechile = () => {
   const style = {
     position: "absolute",
@@ -40,7 +40,9 @@ const AddVechile = () => {
   return (
     <Modal open={true}>
       <Box sx={style}>
-        <div className="select-vechile-title"><div>Add Vehicle</div></div>
+        <div className="select-vechile-title">
+          <div>Add Vehicle</div>
+        </div>
         <Divider sx={divider_style} />
         <div>
           <div className="card-container">
@@ -82,22 +84,25 @@ const AddVechile = () => {
             </Card>
           </div>
         </div>
-          
-          <div className="vin-number">
-            <div>Enter your VIN number</div>
-            <div><img src = {info}/></div>
-          </div>
-          <div className="add-vechile-input"><input type = "text" placeholder="Eg. 4Y1SL65"/></div>
 
-
-          <div className="registration-number">
-            <div>Enter registration number (optional)</div>
+        <div className="vin-number">
+          <div>Enter your VIN number</div>
+          <div>
+            <img src={info} />
           </div>
-          <div className="add-vechile-input"><input type = "text" placeholder="Eg. KA 01 GH 9278"/></div>
-      
-      <div className="add-vechile-button">
-        Next
-      </div>
+        </div>
+        <div className="add-vechile-input">
+          <input type="text" placeholder="Eg. 4Y1SL65" />
+        </div>
+
+        <div className="registration-number">
+          <div>Enter registration number (optional)</div>
+        </div>
+        <div className="add-vechile-input">
+          <input type="text" placeholder="Eg. KA 01 GH 9278" />
+        </div>
+
+        <div className="add-vechile-button">Next</div>
       </Box>
     </Modal>
   );

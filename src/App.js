@@ -6,6 +6,7 @@ import Name from './components/Name';
 import Email from './components/Email'
 import SelectVechile from "./components/SelectVechile"
 import AddVechile from "./components/AddVechile"
+import AvailableStation from './components/AvailableStation';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
 {/* <Name/> */}
 {/* <Email/> */}
 {/* <SelectVechile/> */}
-<AddVechile/>
+{/* <AddVechile/> */}
+<AvailableStation/>
   </div>
   );
 }
